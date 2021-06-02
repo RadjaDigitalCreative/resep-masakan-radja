@@ -1,0 +1,62 @@
+.buttons {
+    display: block;
+    text-align: center;
+
+    a, span {
+        padding: .3em .7em;
+        margin: 0 4px;
+        color: #000;
+        background: $light-bg;
+        border-radius: 3px;
+        @include shadow-small();
+    }
+}
+
+.big-buttons {
+    a, button {
+        margin: 5px;
+    }
+}
+.bottom-buttons {
+    padding-top: 6px;
+    min-height: 40px;
+
+    .form-group {
+        margin-left: 6px;
+    }
+    .pull-right {
+        position: absolute;
+        bottom: 2px;
+        right: 20px;
+    }
+}
+.cell-buttons {
+    a {
+        text-decoration: none;
+    }
+    .glyphicon {
+        margin: 0 2px;
+        padding: 0 2px;
+    }
+}
+
+.form-right {
+    position: absolute;
+    margin: 30px;
+    bottom: 19px;
+    right: 28px;
+    @media screen and (max-width: 400px) {
+        right: 0px;
+    }
+}
+
+.btn-login {
+    margin-right: 9px;
+    margin-bottom: 18px;
+}
+.btn-facebook {
+    @include button-variant(#fff, #3b5999, darken(#3b5999, 5%));
+}
+.btn-twitter {
+    @include button-variant(#fff, #55acee, darken(#55acee, 5%));
+}

@@ -1,0 +1,48 @@
+.panel {
+    @include shadow();
+
+    .panel-heading {
+        border: none;
+        background: $light-bg;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+    .panel-body {
+        position: relative;
+    }
+    .alert {
+        margin: 16px;
+    }
+}
+
+.list-group {
+    @include shadow();
+
+    .list-group-item {
+        margin-bottom: 0;
+        border: none;
+        border-bottom: 1px solid $light-bg;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    .list-group-link {
+        padding: 0;
+
+        a {
+            display: block;
+            padding: 10px 15px;
+        }
+
+        &:hover {
+            background-color: #eee;
+        }
+    }
+}
+
+.panel, .navbar, .list-group {
+    margin-bottom: 30px;
+}
+

@@ -1,0 +1,19 @@
+// Variables
+@import "variables";
+// Mixins
+@import "mixins";
+
+
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/variables";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+// Components
+@import "components/multiselect";
+
+form {
+    .thumbnail {
+        max-width: 200px;
+        margin-bottom: 4px;
+    }
+}
+

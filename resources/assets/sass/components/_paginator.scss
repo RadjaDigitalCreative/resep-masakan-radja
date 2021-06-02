@@ -1,0 +1,36 @@
+.pagination {
+    .glyphicon {
+        top: 2px;
+    }
+}
+
+.center-paginator {
+    li {
+        font-size: 1.2em;
+
+        a, span {
+            padding: 6px 16px;
+        }
+
+        .glyphicon {
+            top: 3px;
+        }
+    }
+}
+
+.small-paginator {
+    li  {
+        a, span {
+            padding: 2px 8px;
+        }
+
+        .glyphicon {
+            margin: 0;
+        }
+    }
+}
+
+.comment-paginator {
+    float: right;
+    margin-top: -34px;
+}

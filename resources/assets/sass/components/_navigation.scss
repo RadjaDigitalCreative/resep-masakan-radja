@@ -1,0 +1,46 @@
+.navbar-brand {
+    height: 58px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 20px;
+}
+
+.navbar {
+    li a {
+        line-height: 30px;
+        font-weight: 600;
+    }
+}
+
+.navbar-default .navbar-nav {
+    .item {
+        height: 58px;
+        color: #fff;
+
+        &:hover {
+            color: #fff;
+            background: rgba(#000, 0.4);
+        }
+        .glyphicon {
+            margin-right: 8px;
+        }
+    }
+    .open > a {
+        &, &:hover, &:focus {
+            color: #fff;
+            background: rgba(#000, 0.4);
+        }
+    }
+}
+
+.navbar-right {
+    .avatar-img {
+        @include sizes(30px, 30px);
+        margin-right: 8px;
+    }
+    .dropdown-menu li {
+        a { padding-left: 14px; }
+        i { margin-right: 8px; }
+    }
+}
+
